@@ -117,11 +117,61 @@ nav ul li a:hover{
     font-size: 25px;
     
 }
+.aboutme{
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+    margin: 100px 0px;
+    
+}
+.aboutme .left2{
+    width: 50%;
+    height: 450px;
+    background: white;
+    display: inline-block;
+}
+
+.aboutme .right2{
+    width: 49%;
+    display: inline-block;
+}
+.aboutme .right2 p{
+    width: 400px;
+}
+.aboutme .right2 h6{
+    margin: 0;
+    padding: 0;
+}
+.aboutme .right2 h2{
+    width: 350px;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+.aboutme .right2 a{
+    display: inline-block;
+    /* border: 3px solid red; */
+    border-radius: 5px;
+    padding: 15px;
+    background: rgb(39,12,241);
+    background: linear-gradient(90deg, rgba(39,12,241,0.00043767507002800965) 0%, rgba(47,12,239,1) 0%, rgba(242,0,188,0.9948354341736695) 100%);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+}
 .ourservice{
     width: 768px;
     margin: auto;
     line-height: 1;
     padding-bottom: 30px;
+    
+}
+.ourservice .heading{
+    padding: 35px 0px;
 }
 .ourservice .heading h2{
     width: 250px;
@@ -138,7 +188,7 @@ nav ul li a:hover{
     padding: 0;
 }
 .ourservice .content .body{
-    border: 1px solid;
+    /* border: 1px solid; */
     display: inline-block;
     width: 32%;
     margin: 0px 2.5px;
