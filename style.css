@@ -121,6 +121,7 @@ nav ul li a:hover{
     width: 768px;
     margin: auto;
     line-height: 1;
+    padding-bottom: 30px;
 }
 .ourservice .heading h2{
     width: 250px;
@@ -142,4 +143,44 @@ nav ul li a:hover{
     width: 32%;
     margin: 0px 2.5px;
     text-align: center;
+    font-family: sans-serif;
+    padding: 15px;
+    box-sizing: border-box;
+    background: rgb(207, 203, 203);
+}
+.ourservice .content .body img{
+    width: 80px;
+}
+.ourservice .content .body h4{
+    color: black;
+    font-size: 22px;
+}
+.ourservice .content .body p{
+    font-size: 16px;
+
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+footer img{
+    width: 80px;
+}
+footer ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 10px;
 }
