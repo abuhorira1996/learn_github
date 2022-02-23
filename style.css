@@ -121,14 +121,21 @@ nav ul li a:hover{
     width: 90%;
     margin: auto;
     font-family: sans-serif;
-    margin: 100px 0px;
+    padding: 50px 0px;
     
 }
 .aboutme .left2{
     width: 50%;
-    height: 450px;
-    background: white;
+    height: 400px;
+    background: url(Banner\ Background2.png);
     display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 1px solid; */
+}
+.aboutme .left2 img{
+    margin-top: 104px;
+    margin-left: 100px;
 }
 
 .aboutme .right2{
